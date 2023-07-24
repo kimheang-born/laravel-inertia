@@ -15,6 +15,7 @@ mix
   .ts('resources/js/app.js', 'public/js')
   .extract()
   .vue(3)
+  .sass('resources/sass/app.scss', 'public/css')
   .postCss('resources/css/app.css', 'public/css', [
     //
   ])

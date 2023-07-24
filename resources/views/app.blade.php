@@ -11,6 +11,8 @@
 </head>
 
 <body>
-    @inertia
+    <section class="main-section">
+        @inertia
+    </section>
 </body>
 </html>
